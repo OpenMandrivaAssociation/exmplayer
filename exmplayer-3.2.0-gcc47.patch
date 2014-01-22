@@ -1,0 +1,11 @@
+diff -urN ExMplayer/src/qtsingleapplication/qtlocalpeer.cpp ExMplayer-patched/src/qtsingleapplication/qtlocalpeer.cpp
+--- ExMplayer/src/qtsingleapplication/qtlocalpeer.cpp	2013-04-22 07:33:14.000000000 +1100
++++ ExMplayer-patched/src/qtsingleapplication/qtlocalpeer.cpp	2014-01-22 15:26:28.000000000 +1100
+@@ -45,6 +45,7 @@
+ ****************************************************************************/
+ 
+ 
++#include <unistd.h>
+ #include "qtlocalpeer.h"
+ #include <QtCore/QCoreApplication>
+ #include <QtCore/QTime>

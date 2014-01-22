@@ -1,0 +1,12 @@
+diff -urN ExMplayer/src/playerwindow.cpp ExMplayer-patched/src/playerwindow.cpp
+--- ExMplayer/src/playerwindow.cpp	2013-12-03 06:00:56.000000000 +1100
++++ ExMplayer-patched/src/playerwindow.cpp	2014-01-22 16:46:03.555109270 +1100
+@@ -136,7 +136,7 @@
+     QMainWindow::changeEvent(e);
+     switch (e->type()) {
+     case QEvent::LanguageChange:
+-        ui->retranslateUi(this);
++//        ui->retranslateUi(this);
+         break;
+     default:
+         break;
