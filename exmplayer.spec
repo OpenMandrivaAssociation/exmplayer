@@ -1,7 +1,7 @@
 Summary:	MPlayer GUI with thumbnail seeking and 3D Video support
 Name:		exmplayer
 Version:	3.2.0
-Release:	1
+Release:	2
 Group:		Video
 License:	GPLv2+
 Url:		http://exmplayer.sourceforge.net/
