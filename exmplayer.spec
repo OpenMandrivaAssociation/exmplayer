@@ -4,7 +4,7 @@ Version:	3.2.0
 Release:	2
 Group:		Video
 License:	GPLv2+
-Url:		http://exmplayer.sourceforge.net/
+Url:		https://exmplayer.sourceforge.net/
 Source0:	https://github.com/rupeshs/ExMplayer/archive/%{name}_%{version}.tar.gz
 Patch0:		exmplayer-3.2.0-gcc47.patch
 Patch1:		exmplayer-3.2.0-segfault.patch
